@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Roboto:ital,wght@0,400;0,500;1,100&display=swap');
+
+body {
+    background: #f2f2f2;
+    font-family: 'Open Sans', sans-serif;
+    color: #636c6c;
+    font-size: 17px;
+}
+
+h1 {
+    color:#062947;
+    font-family: 'Roboto'
+}
+
+h2 {
+    color: #b1b1cc;
+    font-family: 'Roboto';
+    font-size: 30px
+}
+
+a {
+    color:#a5a5bd;
+    text-decoration: none
+}
+
+.list-inline a:hover {
+    color: #606d9f;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto
+}
+
+.card-white {
+    background: white;
+    text-align: center;
+    padding: 40px;
+    margin: 20px 0;
+    border-radius: 4px;
+    box-shadow: 0px 10px 30px #00000040;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.list-inline > li {
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 40px;
+  }
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+
+.btn-blue {
+    background: #062947;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+}
+
+.btn-blue:hover{
+    background: #a5a5bd;
+}
+
+#description {
+    margin-bottom: 38px;
+}
+
+@media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 800px;
+    }
+  }
+@media (max-width: 720px) {
+    .container {
+      width: 500px;
+    }
+  }
+@media (max-width: 540px) {
+    .container {
+      width: 300px;
+    }
+    h2 {
+        font-size: 20px
+    }
+    .list-inline > li {
+        font-size: 30px;
+    }
+  }
+  
